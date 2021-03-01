@@ -1,3 +1,3 @@
 - Original source https://github.com/twuni/docker-registry.helm
 - `helm --kubeconfig <KUBECONFIG> install docker-registry docker-registry.helm --values docker-registry.helm/registry-values.yaml`
-- `kubectl --kubeconfig ~/.kube/config.privat create secret docker-registry regcred --docker-server=registry.permission-denied.de --docker-username=<USER> --docker-password=<PASS>`
+- `kubectl --kubeconfig ~/.kube/config create secret docker-registry regcred --docker-server=registry.permission-denied.de --docker-username=<USER> --docker-password=<PASS>`
